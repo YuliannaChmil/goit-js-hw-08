@@ -31,7 +31,6 @@ function onSubmit(event) {
   }
   localStorage.removeItem(STORAGE_KEY);
   event.currentTarget.reset();
-  dataForm = {};
 }
 
 function resultFeedback() {
